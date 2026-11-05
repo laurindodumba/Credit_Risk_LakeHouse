@@ -21,4 +21,3 @@ Esperado: `credit_risk_dataset.csv`, com colunas como `person_age`, `person_inco
 - Os notebooks usam tabelas Delta geridas pelo Lakehouse padrão.
 - A primeira execução usa overwrite para facilitar reprodução. Para produção, definir ingestão incremental, chaves, tratamento de schema drift e estratégia de upsert.
 - A camada Gold é analítica/descritiva; não é um modelo de decisão ou previsão de crédito.
-- Rever resultados da tabela `silver_credit_risk_rejects` antes de considerar a qualidade final aprovada.
